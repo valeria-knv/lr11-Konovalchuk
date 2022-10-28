@@ -1,14 +1,14 @@
 const imgs = [
-    {src: ".\\imgs\\anonymous.png", word: "Anonymous", translate: "анонімний"},
-    {src: ".\\imgs\\conscious.png", word: "Conscious", translate: "свідомий"},
-    {src: ".\\imgs\\commodity.png", word: "Commodity", translate: "товар"},
-    {src: ".\\imgs\\entrepreneur.png", word: "Entrepreneur", translate: "підприємець"},
-    {src: ".\\imgs\\hospitality.png", word: "Hospitality", translate: "гостинність"},
-    {src: ".\\imgs\\maintenance.png", word: "Maintenance", translate: "обслуговування"},
-    {src: ".\\imgs\\philosophical.png", word: "Philosophical", translate: "філософський"},
-    {src: ".\\imgs\\pronunciation.png", word: "Pronunciation", translate: "вимова"},
-    {src: ".\\imgs\\superfluous.png", word: "Superfluous", translate: "зайвий"},
-    {src: ".\\imgs\\thesaurus.png", word: "Thesaurus", translate: "скарбниця"},
+    {src: ".\\anonymous.png", word: "Anonymous", translate: "анонімний"},
+    {src: ".\\conscious.png", word: "Conscious", translate: "свідомий"},
+    {src: ".\\commodity.png", word: "Commodity", translate: "товар"},
+    {src: ".\\entrepreneur.png", word: "Entrepreneur", translate: "підприємець"},
+    {src: ".\\hospitality.png", word: "Hospitality", translate: "гостинність"},
+    {src: ".\\maintenance.png", word: "Maintenance", translate: "обслуговування"},
+    {src: ".\\philosophical.png", word: "Philosophical", translate: "філософський"},
+    {src: ".\\pronunciation.png", word: "Pronunciation", translate: "вимова"},
+    {src: ".\\superfluous.png", word: "Superfluous", translate: "зайвий"},
+    {src: ".\\thesaurus.png", word: "Thesaurus", translate: "скарбниця"},
 ];
 
 $(window).on('load', function(){
@@ -71,7 +71,7 @@ $(window).on('load', function(){
                     else{alert("You have an EXCELLENT level of English");}
                 }
             }
-            window.location.href=".\\lr11.html";
+            window.location.href=".\\index.html";
         }
     });
     $("#left").on('click', function(){
